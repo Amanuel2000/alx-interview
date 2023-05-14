@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Write a script that reads stdin line by line and computes metrics:
-
 """
 
 
@@ -48,5 +47,4 @@ finally:
     print('File size: {}'.format(all_sizes))
     for key, value in sorted(list_of_status_codes.items()):
         if value != 0:
-            print('{}: {}'.format(key, value))
-            
+            print('{}: {}'.format(key, value))            
